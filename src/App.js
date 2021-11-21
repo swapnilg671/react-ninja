@@ -2,13 +2,15 @@
 import PropTypes from 'prop-types';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import About from './components/About';
 
 function App() {
   return (
     <div>
     <Navbar title='React-Ninja-home' about="About React-Ninja"/>
     <div className='container' >
-    <TextForm heading="Enter your text here to analyze"/>
+    {/* <TextForm heading="Enter your text here to analyze"/> */}
+    <About/>
     </div>
    
     </div>
